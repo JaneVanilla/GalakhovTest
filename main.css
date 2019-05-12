@@ -90,6 +90,16 @@ img {
     background: url("Images/Union.png") no-repeat center;
 }
 
+@media(max-width:980px) {
+    .page-header__title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .page-header__text {
+        font-size: 14px;
+    }
+}
+
 /*Main Content*/
 
 .main-content {
@@ -115,7 +125,7 @@ img {
     flex-wrap: wrap;
     background: #fff;
     margin: 0 auto;
-    margin-left: -482px;
+    margin-left: -486px;
     width: 972px;
     border: 1px solid #EDEDED;
 }
@@ -136,6 +146,20 @@ img {
 .main-content__cards-item--3 {
     border-right: 1px solid #EDEDED;
 }
+
+@media(max-width:980px) {
+    .main-content__cards-wrapper {
+        margin-left: -248px;
+        width: 486px;
+    }
+    .main-content__cards-item {
+        width: auto;
+    }
+    .main-content__aboutUs-text {
+        font-size: 14px;
+    }
+}
+
 .main-content__cards-title {
     margin-bottom: 12px;
     text-transform: uppercase;
@@ -252,6 +276,17 @@ img {
     font-style: normal;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
+}
+
+@media(max-width:980px) {
+    .main-content__advantages__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main-content__advantages__item {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
 }
 
 .main-content__form {
